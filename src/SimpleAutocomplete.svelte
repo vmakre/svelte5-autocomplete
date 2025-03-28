@@ -1198,7 +1198,7 @@
   </div>
   
   <svelte:window on:click={onDocumentClick} on:scroll={() => setPositionOnNextUpdate = true} />
-  
+<!--   
   <style>
     .autocomplete {
       min-width: 200px;
@@ -1362,4 +1362,4 @@
       box-shadow: none;
       background: none;
     }
-  </style>
+  </style> -->
